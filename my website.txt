@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Takumi Auto Collection</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0a0a0a;
+    color:white;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=2070");
+    background-size:cover;
+    background-position:center;
+    padding:120px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:55px;
+    color:#00e0ff;
+    margin:0;
+}
+
+header h2{
+    margin:10px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#00e0ff;
+    color:black;
+    margin:10px;
+    border-radius:5px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+section{
+    padding:60px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#00e0ff;
+}
+
+.car-card{
+    background:#111;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:40px;
+}
+
+.car-card h3{
+    color:#00ff99;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.gallery img{
+    width:48%;
+    border-radius:8px;
+}
+
+.specs{
+    margin-top:15px;
+    background:#1a1a1a;
+    padding:15px;
+    border-radius:8px;
+}
+
+.price{
+    font-size:20px;
+    color:#00ff99;
+    margin-top:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    display:inline-block;
+    margin:10px;
+    padding:10px 20px;
+    background:#00e0ff;
+    color:black;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>RevNation PH Presents</h2>
+<h1>TAKUMI AUTO COLLECTION</h1>
+<p>Owner: John Timothy Taguiam</p>
+<a href="#collection" class="btn">Explore Collection</a>
+<a href="#contact" class="btn">Contact Us</a>
+</header>
+
+<section id="collection">
+<h2>JDM Car Collection</h2>
+
+<!-- NISSAN -->
+<div class="car-card">
+<h3>Nissan GT-R R34</h3>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1542365889-4b2b3c94a43a">
+<img src="https://images.unsplash.com/photo-1603386329225-868f9c3b1f56">
+<img src="https://images.unsplash.com/photo-1619767886558-efdc259b6e72">
+<img src="https://images.unsplash.com/photo-1593941707882-a56bbc8df2e1">
+</div>
+<div class="specs">
+Horsepower: 280 HP<br>
+Engine: RB26DETT Twin Turbo<br>
+Transmission: 6-Speed Manual<br>
+Drive: AWD<br>
+Interior: Racing Bucket Seats<br>
+</div>
+<div class="price">₱8,500,000</div>
+</div>
+
+<!-- TOYOTA -->
+<div class="car-card">
+<h3>Toyota Supra MK4</h3>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1605559424843-9e4c2284e5c1">
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a">
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
+<img src="https://images.unsplash.com/photo-1511910849309-0dffb8785146">
+</div>
+<div class="specs">
+Horsepower: 320 HP<br>
+Engine: 2JZ-GTE Twin Turbo<br>
+Transmission: 6-Speed Manual<br>
+Drive: RWD<br>
+Interior: Black Leather Sport
+</div>
+<div class="price">₱2,800,000</div>
+</div>
+
+<!-- HONDA -->
+<div class="car-card">
+<h3>Honda Civic Type R FK8</h3>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1617469165786-8007eda3e4c4">
+<img src="https://images.unsplash.com/photo-1549924231-f129b911e442">
+<img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023">
+<img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d">
+</div>
+<div class="specs">
+Horsepower: 306 HP<br>
+Engine: 2.0L Turbo VTEC<br>
+Transmission: 6-Speed Manual<br>
+Drive: FWD<br>
+Interior: Red Racing Seats
+</div>
+<div class="price">₱3,500,000</div>
+</div>
+
+<!-- MAZDA -->
+<div class="car-card">
+<h3>Mazda RX-7 FD</h3>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+<img src="https://images.unsplash.com/photo-1493238792000-8113da705763">
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a">
+<img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8">
+</div>
+<div class="specs">
+Horsepower: 276 HP<br>
+Engine: 13B Rotary Twin Turbo<br>
+Transmission: 5-Speed Manual<br>
+Drive: RWD<br>
+Interior: Classic JDM
+</div>
+<div class="price">₱3,000,000</div>
+</div>
+
+<!-- SUBARU -->
+<div class="car-card">
+<h3>Subaru WRX STI</h3>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1597000470138-4c5b3a89ce0f">
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+<img src="https://images.unsplash.com/photo-1542365889-4b2b3c94a43a">
+<img src="https://images.unsplash.com/photo-1605559424843-9e4c2284e5c1">
+</div>
+<div class="specs">
+Horsepower: 310 HP<br>
+Engine: 2.5L Turbo Boxer<br>
+Transmission: 6-Speed Manual<br>
+Drive: AWD<br>
+Interior: STI Sport Trim
+</div>
+<div class="price">₱2,400,000</div>
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<a href="https://www.youtube.com" target="_blank">YouTube</a>
+<a href="https://www.instagram.com" target="_blank">Instagram</a>
+<a href="https://www.facebook.com" target="_blank">Facebook</a>
+<a href="mailto:takumiautocollection@email.com">Email Us</a>
+</section>
+
+<footer>
+© 2026 Takumi Auto Collection | All Rights Reserved
+</footer>
+
+</body>
+</html>
